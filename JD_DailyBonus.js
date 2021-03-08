@@ -9,7 +9,7 @@ const download = require("download");
 // 公共变量
 const JD_COOKIE = process.env.JD_COOKIE; //cokie,多个用&隔开即可
 let SyncUrl = process.env.SYNCURL; //签到地址,方便随时变动
-let CookieJDs = [];
+let CookieJDs = [pt_key=AAJgRg1YADA1W65qIVS2HFu953AvvynP4U5hXzs6wr00m1zqczBz85702FGws-bWZPqJdi0BHy8;pt_pin=wolf5629;];
 
 async function downFile() {
     if (!SyncUrl) {
